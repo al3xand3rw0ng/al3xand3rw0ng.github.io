@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alexander Wong</title>
+        <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet"
     </head>
     <body>
-        <h2>Hello, I'm Alexander Wong, and welcome to my website!</h2>
-        <img src ="Images/headshot.jpg" width="200" height="250">
-        <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/alexander-wong-569848251/">LinkedIn</a>, and thank you for stopping by!</p>
-        <p>IN PROGRESS</p>
+        <p align="center">
+            <img src="Images/name01.png" id="animateLogo" width="400" height="400">
+            <script>
+                var image = document.getElementById("animateLogo");
+                var images = ['Images/name01.png', 'Images/name02.png', 'Images/name03.png'];
+                var idx = 0;
+    
+                function animateLogo() {
+                    image.src = images[idx];
+                    idx = (idx + 1) % images.length;  
+                }
+    
+                setnterval(animateLogo, 1000);
+            </script>
+        </p>
+        <h1 align="center">Hello, I'm Alex. Welcome to my website!</h1>
+        <p align="center">*IN PROGRESS*</p>
     </body>
 </html>
