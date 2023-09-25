@@ -1,0 +1,36 @@
+body {
+    background: #fff;
+    color: #000;
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+img {
+    width: 25vw;
+    height: 25vw; 
+    max-width: 250px; 
+    max-height: 250px; 
+}
+
+.logo {
+  width: 50vw;
+  height: 50vw; 
+  max-width: 500px; 
+  max-height: 500px; 
+}
+
+.headshot {
+  width: 35vw;
+  height: 45vw; 
+  max-width: 250px; 
+  max-height: 350px; 
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
