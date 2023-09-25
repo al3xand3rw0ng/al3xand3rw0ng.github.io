@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Alexander Wong</title>
+        <title>Home</title>
+        <link rel="icon" href="Images/headshot.jpg" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet"
     </head>
     <body>
+        <table>
+            <tr>
+                <td align="left">
+                    <img src="Images/about_me.png" onclick="document.location='about_me.html'">
+                </td>
+                <td align="right">
+                    <img src="Images/projects.png" onclick="document.location='projects.html'">
+                </td>
+            </tr>
+        </table>
         <p align="center">
-            <img src="Images/name03.png" id="animateLogo" width="400" height="400">
+            <img src="Images/name03.png" id="animateLogo" class="logo">
             <script>
                 var image = document.getElementById("animateLogo");
                 var images = ['Images/name01.png', 'Images/name02.png', 'Images/name03.png'];
@@ -21,7 +32,6 @@
                 setInterval(animateLogo, 1000);
             </script>
         </p>
-        <h2 align="center">Hello, I'm Alex. Welcome to my website!</h2>
-        <p align="center">*IN PROGRESS*</p>
+        <h1 align="center">Hello, I'm Alex. Welcome to my website!</h1>
     </body>
 </html>
