@@ -7,24 +7,31 @@ body {
   }
 
 img {
-    width: 25vw;
-    height: 25vw; 
-    max-width: 250px; 
-    max-height: 250px; 
+    width: 20vw;
+    height: 20vw; 
+    max-width: 200px; 
+    max-height: 200px; 
 }
 
 .logo {
-  width: 50vw;
-  height: 50vw; 
-  max-width: 500px; 
-  max-height: 500px; 
+  width: 45vw;
+  height: 45vw; 
+  max-width: 450px; 
+  max-height: 450px; 
 }
 
 .headshot {
-  width: 35vw;
-  height: 45vw; 
-  max-width: 250px; 
-  max-height: 350px; 
+  width: 30vw;
+  height: 40vw; 
+  max-width: 200px; 
+  max-height: 300px; 
+}
+
+.project {
+  width: 25vw;
+  height: 25vw; 
+  max-width: 300px; 
+  max-height: 300px; 
 }
 
 table {
