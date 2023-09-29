@@ -13,6 +13,13 @@ img {
     max-height: 200px; 
 }
 
+video {
+  width: 45vw;
+  height: 45vw; 
+  max-width: 450px; 
+  max-height: 450px; 
+}
+
 .logo {
   width: 45vw;
   height: 45vw; 
