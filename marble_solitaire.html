@@ -8,7 +8,36 @@
     </head>
     <body>
         <img src="Images/back_button.png" onclick="document.location='projects.html'">
-        <h1 align="center">Marble Solitaires</h1>
-        <h1 align="center">PAGE IN PROGRESS</h1>
+        <h1 align="center">Marble Solitaire</h1>
+        <table>
+            <tr>
+                <td align="center">
+                    <video controls="controls">
+                        <source src="Videos/marble_solitaire.mp4" type=video/mp4>
+                    </video>
+                </td>
+            </tr>
+        </table>
+            <p>In collaboration with a partner, I implemented three versions of marble solitaire: English, European, and Triangular. Marble solitaire follows a simple ruleset. A player can move a marble, horizontally or vertically, by making a jump over one adjacent marble into an empty slot. When all slots are vacant except for the center, the player has won. The player loses if no other moves are possible and the condition above is not met.</p>
+            <p>This assignment required using object-oriented design principles to limit code duplication. Additionally, this project was created by following the Model-View-Controller (MVC) design pattern.</p>
+            <p>The primary issue faced in our implementation was adapting our design to work with other versions of marble solitaire. To do this, we created abstract classes to create inheritable and abstract methods. This additionally improved the readability of our code.</p>
+            <p>Examples of game functionality, including movement controls and invalid movement handling, for the English version are shown above.</p>    
+        <table>
+            <tr>
+                <td align="left">
+                    <img src="Images/english.png">
+                    <p>English Marble Solitaire</p>
+    
+                </td>
+                <td align="center">
+                    <img src="Images/european.png">
+                    <p>European Marble Solitaire</p>
+                </td>
+                <td align="right">
+                    <img src="Images/triangular.png">
+                    <p>Triangular Marble Solitaire</p>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
