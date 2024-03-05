@@ -3,8 +3,7 @@ body {
     color: #000;
     padding: 25px;
     font-family: 'Times New Roman', Times, serif;
-
-  }
+}
 
 img {
     width: 20vw;
@@ -23,8 +22,8 @@ video {
 .logo {
   width: 45vw;
   height: 45vw; 
-  max-width: 450px; 
-  max-height: 450px; 
+  max-width: 350px; 
+  max-height: 350px; 
 }
 
 .headshot {
@@ -49,4 +48,54 @@ table {
 
 td {
     text-align: center;
+}
+
+.typing-animation {
+  font-size: 35px;
+  font-weight: 600;
+  min-width: 200px;
+
+}
+
+.typing-animation-text span {
+  position: relative;
+}
+
+.typing-animation-text span::before {
+  content: "";
+  color: black;
+  animation: text 20s infinite;
+}
+
+.typing-animation-text span::after {
+  content: "";
+  color: black;
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 36.25px;
+  background-color: white;
+  border-left: 2.5px solid black;
+  right: -8px;
+  animation: cursor 1.025s infinite, typing 27.5s steps(25) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2.5px solid white;
+  }
+}
+
+@keyframes text {
+  0%, 100% {
+    content: "Hello, I'm Alex. Welcome to my website!";
+  } 
+}
+
+@keyframes typing {
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+    width: 0;
+  }
+  5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 8px);
+  }
 }
